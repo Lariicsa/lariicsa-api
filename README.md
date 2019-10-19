@@ -1,2 +1,3 @@
 # lariicsa-api
-simple ERN API to show Profile info
+Simple MEN API, 
+to show personal info in React webapp
