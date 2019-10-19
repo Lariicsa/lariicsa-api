@@ -65,4 +65,4 @@ package-lock.json
 .next
 
 # seed
-seed.js
+bin/seeds.js

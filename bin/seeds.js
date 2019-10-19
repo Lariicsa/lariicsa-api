@@ -8,7 +8,7 @@ const data = [
     {
         name: 'Larissa',
         lastname: 'Avila Ramírez',
-        skills: ['HTML', 'SCSS', 'CSS', 'VueJs', 'Jekyllrb', 'Bootstrap', 'Javascript', 'Advance Git', 'Sketch','AdobeXD', 'React', 'Bulma', 'Node', 'Express', 'MongoDB', 'HBS'],
+        skills: ['HTML', 'SCSS', 'CSS', 'VueJs', 'Jekyllrb', 'Bootstrap', 'Javascript', 'Advance Git', 'Sketch', 'AdobeXD', 'React', 'Bulma', 'Node', 'Express', 'MongoDB', 'HBS'],
         image: 'https://avatars1.githubusercontent.com/u/2333713?s=460&v=4',
         extract: `Frontend developer & I’m UI Designer. Master in HTML/CSS layingout.
         I enjoy designing and coding user interfaces.`,
@@ -61,7 +61,7 @@ const data = [
                 position: 'Lead UI Designer',
                 jobUrl: 'https://asc.education/',
                 jobExtract: `Design and develop layout components for each company system.`,
-                skils: ['VueJs', 'Jekyllrb', 'SCSS', 'CSS', 'Bootstrap', 'HTML', 'Javascript', 'Advance Git', 'Sketch','AdobeXD']
+                skils: ['VueJs', 'Jekyllrb', 'SCSS', 'CSS', 'Bootstrap', 'HTML', 'Javascript', 'Advance Git', 'Sketch', 'AdobeXD']
             },
             {
                 title: 'Wavecation',
@@ -72,7 +72,7 @@ const data = [
             }
         ]
     }
-];
+]
 
 Sam.create(data, err => {
     if (err) { throw (err) };

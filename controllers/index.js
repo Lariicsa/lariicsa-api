@@ -7,9 +7,8 @@ exports.home = async (req, res) => {
 
 exports.getLaraInfo = async (req, res) => {
     try {
-      const { id } = req.params
-      const info = await Sam.find()
-      res.status(200).json({ info })
+      const [info] = await Sam.find()
+      res.status(200).json({info})
     }
     catch {
       (err) => res.status(500).json({ err })
