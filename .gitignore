@@ -42,6 +42,10 @@ typings/
 # Optional npm cache directory
 .npm
 
+package-lock.json
+
+.DS_Store
+
 # Optional eslint cache
 .eslintcache
 
@@ -60,4 +64,5 @@ typings/
 # next.js build output
 .next
 
-.DS_Store
+# seed
+seed.js
