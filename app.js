@@ -45,6 +45,6 @@ app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 app.locals.title = 'Lara web-Api';
 
 const index = require('./routes/index');
-app.use('/', index);
+app.use('/api', index);
 
 module.exports = app;
